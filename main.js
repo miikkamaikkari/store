@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     sections.forEach(section => {
         section.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.1)';
-            this.style.transition = 'transform 0.5s';
+            this.style.transform = 'scale(1.05)';
+            this.style.transition = 'transform 0.1s';
         });
 
         section.addEventListener('mouseleave', function() {
